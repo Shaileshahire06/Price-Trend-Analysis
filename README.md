@@ -15,17 +15,16 @@ Database: MySQL
 price-trend-analysis/  
 ├─ data/  
 │  ├─ retail_sales_dataset.csv  
-│  ├─ sales_data.sql  
+│  ├─ SAL_BW_Project_3.sql  
 ├─ notebooks/  
-│  ├─ trend_analysis.ipynb  
-├─ visuals/  
-│  ├─ seasonal_trends.png  
-│  ├─ profit_comparison.png  
+│  ├─ SAL_BW_Project_3 (1).ipynb  
+├─ visuals/    
 ├─ README.md  
 
 
 🎥 Video Walkthrough of the Project
 [Attach a brief video (1–3 minutes) showing key visualizations and insights]
+
 🎥 Video Walkthrough of the Codebase
 [Optional: 1–5 minute walkthrough explaining SQL queries, Pandas workflows, and modeling logic]
 
@@ -45,14 +44,13 @@ price-trend-analysis/
 - Outliers optionally trimmed for visualization clarity
   
 ⚙️ Installation & Getting Started
-git clone https://github.com/your-username/price-trend-analysis  
+git clone https://github.com/Shaileshahire06/price-trend-analysis  
 cd price-trend-analysis  
 pip install -r requirements.txt  
-jupyter notebook notebooks/trend_analysis.ipynb
-
+jupyter notebook notebooks/SAL_BW_Project_3 (1).ipynb
 
 To set up MySQL connection:
-- Create and populate your database using sales_data.sql
+- Create and populate your database using SAL_BW_Project_3.sql
 - Update connection details in the notebook config block
   
 📈 Usage
@@ -62,20 +60,15 @@ Run the notebook to:
 - Visualize price trends and profitability metrics
 # Example SQL Query
 SELECT category, AVG(final_price) FROM sales GROUP BY category;
-
 # Pandas Snippet
 df.groupby(['Month'])['Final_Price'].mean().plot()
 
-
-(Feel free to embed screenshots of the output plots here.)
 🔐 Credentials
 Database credentials should be securely stored. Use .env or config file for production safety.
-Example (for demo purposes):
-- Username: demo_user
-- Password: demo_pass
   
 🌐 APIs Used
 None – analysis is entirely local using SQL + Pandas
+
 🛰️ API Endpoints
 Not applicable – this is a non-service-based analytical project
 
@@ -85,5 +78,3 @@ Not applicable – this is a non-service-based analytical project
 - Matplotlib / Seaborn: Visualizations
 - Jupyter Notebook: Code, commentary, and charts
 - SQL: Joins, filters, aggregations for multi-table analysis
-
-Let me know if you'd like a catchy project tagline, portfolio summary, or contribution guidelines added. I can also help refine your SQL queries or optimize your Pandas logic for performance.
