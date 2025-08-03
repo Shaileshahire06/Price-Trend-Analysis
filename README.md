@@ -23,10 +23,10 @@ price-trend-analysis/
 
 
 🎥 Video Walkthrough of the Project
-[Attach a brief video (1–3 minutes) showing key visualizations and insights]
+Attached a brief video showing key visualizations and insights.
 
 🎥 Video Walkthrough of the Codebase
-[Optional: 1–5 minute walkthrough explaining SQL queries, Pandas workflows, and modeling logic]
+Walkthrough explaining SQL queries, Pandas workflows, and modeling logic.
 
 💡 Features
 - Aggregation of sales and pricing data using SQL
