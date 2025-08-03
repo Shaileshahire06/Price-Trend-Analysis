@@ -44,8 +44,8 @@ price-trend-analysis/
 - Outliers optionally trimmed for visualization clarity
   
 ⚙️ Installation & Getting Started
-git clone https://github.com/Shaileshahire06/price-trend-analysis  
-cd price-trend-analysis  
+git clone https://github.com/Shaileshahire06/Price-Trend-Analysis  
+cd Price-Trend-Analysis  
 pip install -r requirements.txt  
 jupyter notebook notebooks/SAL_BW_Project_3 (1).ipynb
 
