@@ -45,10 +45,12 @@ Walkthrough explaining SQL queries, Pandas workflows, and modeling logic.
   
 ## Installation & Getting Started
 
+```bash
 git clone https://github.com/Shaileshahire06/Price-Trend-Analysis  
 cd Price-Trend-Analysis  
 pip install -r requirements.txt  
 jupyter notebook notebooks/SAL_BW_Project_3 (1).ipynb
+```
 
 To set up MySQL connection:
 - Create and populate your database using SAL_BW_Project_3.sql
