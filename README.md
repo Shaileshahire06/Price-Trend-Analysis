@@ -36,7 +36,7 @@ Walkthrough explaining SQL queries, Pandas workflows, and modeling logic.
 - Visualizations (Matplotlib & Seaborn) for actionable insights
 - Profit impact analysis from price fluctuations
   
-🎯 Design Decisions & Assumptions
+## 🎯 Design Decisions & Assumptions
 - Sales data ingested from MySQL tables
 - Price prediction based on historical trends and discounts
 - Data grouped by category, region, and time
